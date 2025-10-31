@@ -1,5 +1,6 @@
-streamlit
-pandas
-requests
-plotly
-geocoder
+streamlit>=1.38.0
+pandas>=2.2.0
+requests>=2.31.0
+plotly>=5.24.0
+geocoder>=1.38.1
+gTTS>=2.5.1
