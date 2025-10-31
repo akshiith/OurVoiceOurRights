@@ -1,0 +1,542 @@
+[
+  {
+    "state": "Uttar Pradesh",
+    "district": "Lucknow",
+    "year": 2025,
+    "month": 10,
+    "households": 23450,
+    "person_days": 420000,
+    "expenditure": 58000000,
+    "avg_wage": 235.50
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Lucknow",
+    "year": 2025,
+    "month": 9,
+    "households": 21800,
+    "person_days": 375000,
+    "expenditure": 51500000,
+    "avg_wage": 232.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Lucknow",
+    "year": 2025,
+    "month": 8,
+    "households": 20500,
+    "person_days": 355000,
+    "expenditure": 48200000,
+    "avg_wage": 228.75
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Lucknow",
+    "year": 2025,
+    "month": 7,
+    "households": 22100,
+    "person_days": 385000,
+    "expenditure": 53000000,
+    "avg_wage": 230.50
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Lucknow",
+    "year": 2025,
+    "month": 6,
+    "households": 19800,
+    "person_days": 340000,
+    "expenditure": 46500000,
+    "avg_wage": 225.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Lucknow",
+    "year": 2025,
+    "month": 5,
+    "households": 21500,
+    "person_days": 368000,
+    "expenditure": 50200000,
+    "avg_wage": 227.50
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Varanasi",
+    "year": 2025,
+    "month": 10,
+    "households": 28900,
+    "person_days": 512000,
+    "expenditure": 72500000,
+    "avg_wage": 238.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Varanasi",
+    "year": 2025,
+    "month": 9,
+    "households": 27200,
+    "person_days": 485000,
+    "expenditure": 68200000,
+    "avg_wage": 235.50
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Varanasi",
+    "year": 2025,
+    "month": 8,
+    "households": 26800,
+    "person_days": 470000,
+    "expenditure": 65800000,
+    "avg_wage": 233.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Varanasi",
+    "year": 2025,
+    "month": 7,
+    "households": 28100,
+    "person_days": 495000,
+    "expenditure": 69500000,
+    "avg_wage": 236.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Varanasi",
+    "year": 2025,
+    "month": 6,
+    "households": 25600,
+    "person_days": 452000,
+    "expenditure": 63200000,
+    "avg_wage": 231.50
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Varanasi",
+    "year": 2025,
+    "month": 5,
+    "households": 27500,
+    "person_days": 482000,
+    "expenditure": 67800000,
+    "avg_wage": 234.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Kanpur",
+    "year": 2025,
+    "month": 10,
+    "households": 19600,
+    "person_days": 345000,
+    "expenditure": 48200000,
+    "avg_wage": 232.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Kanpur",
+    "year": 2025,
+    "month": 9,
+    "households": 18500,
+    "person_days": 325000,
+    "expenditure": 45500000,
+    "avg_wage": 229.50
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Kanpur",
+    "year": 2025,
+    "month": 8,
+    "households": 17800,
+    "person_days": 310000,
+    "expenditure": 43200000,
+    "avg_wage": 227.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Kanpur",
+    "year": 2025,
+    "month": 7,
+    "households": 18900,
+    "person_days": 332000,
+    "expenditure": 46500000,
+    "avg_wage": 230.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Kanpur",
+    "year": 2025,
+    "month": 6,
+    "households": 17200,
+    "person_days": 298000,
+    "expenditure": 41800000,
+    "avg_wage": 225.50
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Kanpur",
+    "year": 2025,
+    "month": 5,
+    "households": 18200,
+    "person_days": 318000,
+    "expenditure": 44500000,
+    "avg_wage": 228.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Agra",
+    "year": 2025,
+    "month": 10,
+    "households": 16500,
+    "person_days": 285000,
+    "expenditure": 39800000,
+    "avg_wage": 230.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Agra",
+    "year": 2025,
+    "month": 9,
+    "households": 15800,
+    "person_days": 272000,
+    "expenditure": 38000000,
+    "avg_wage": 227.50
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Agra",
+    "year": 2025,
+    "month": 8,
+    "households": 15200,
+    "person_days": 260000,
+    "expenditure": 36200000,
+    "avg_wage": 225.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Agra",
+    "year": 2025,
+    "month": 7,
+    "households": 16000,
+    "person_days": 278000,
+    "expenditure": 38800000,
+    "avg_wage": 228.50
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Agra",
+    "year": 2025,
+    "month": 6,
+    "households": 14800,
+    "person_days": 252000,
+    "expenditure": 35200000,
+    "avg_wage": 223.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Agra",
+    "year": 2025,
+    "month": 5,
+    "households": 15500,
+    "person_days": 268000,
+    "expenditure": 37500000,
+    "avg_wage": 226.00
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Mumbai",
+    "year": 2025,
+    "month": 10,
+    "households": 8900,
+    "person_days": 145000,
+    "expenditure": 22500000,
+    "avg_wage": 265.00
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Mumbai",
+    "year": 2025,
+    "month": 9,
+    "households": 8500,
+    "person_days": 138000,
+    "expenditure": 21200000,
+    "avg_wage": 262.00
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Mumbai",
+    "year": 2025,
+    "month": 8,
+    "households": 8200,
+    "person_days": 132000,
+    "expenditure": 20100000,
+    "avg_wage": 260.00
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Pune",
+    "year": 2025,
+    "month": 10,
+    "households": 12800,
+    "person_days": 218000,
+    "expenditure": 34500000,
+    "avg_wage": 268.00
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Pune",
+    "year": 2025,
+    "month": 9,
+    "households": 12200,
+    "person_days": 208000,
+    "expenditure": 32800000,
+    "avg_wage": 265.50
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Pune",
+    "year": 2025,
+    "month": 8,
+    "households": 11800,
+    "person_days": 198000,
+    "expenditure": 31200000,
+    "avg_wage": 263.00
+  },
+  {
+    "state": "Karnataka",
+    "district": "Bangalore",
+    "year": 2025,
+    "month": 10,
+    "households": 10500,
+    "person_days": 172000,
+    "expenditure": 26800000,
+    "avg_wage": 272.00
+  },
+  {
+    "state": "Karnataka",
+    "district": "Bangalore",
+    "year": 2025,
+    "month": 9,
+    "households": 10100,
+    "person_days": 165000,
+    "expenditure": 25600000,
+    "avg_wage": 270.00
+  },
+  {
+    "state": "Karnataka",
+    "district": "Bangalore",
+    "year": 2025,
+    "month": 8,
+    "households": 9800,
+    "person_days": 158000,
+    "expenditure": 24500000,
+    "avg_wage": 268.00
+  },
+  {
+    "state": "Karnataka",
+    "district": "Mysore",
+    "year": 2025,
+    "month": 10,
+    "households": 14200,
+    "person_days": 238000,
+    "expenditure": 37200000,
+    "avg_wage": 275.00
+  },
+  {
+    "state": "Karnataka",
+    "district": "Mysore",
+    "year": 2025,
+    "month": 9,
+    "households": 13600,
+    "person_days": 228000,
+    "expenditure": 35500000,
+    "avg_wage": 272.50
+  },
+  {
+    "state": "Karnataka",
+    "district": "Mysore",
+    "year": 2025,
+    "month": 8,
+    "households": 13200,
+    "person_days": 218000,
+    "expenditure": 33800000,
+    "avg_wage": 270.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Lucknow",
+    "year": 2024,
+    "month": 10,
+    "households": 21200,
+    "person_days": 385000,
+    "expenditure": 52000000,
+    "avg_wage": 220.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Lucknow",
+    "year": 2024,
+    "month": 9,
+    "households": 20100,
+    "person_days": 348000,
+    "expenditure": 48500000,
+    "avg_wage": 218.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Lucknow",
+    "year": 2024,
+    "month": 8,
+    "households": 19300,
+    "person_days": 335000,
+    "expenditure": 45800000,
+    "avg_wage": 215.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Lucknow",
+    "year": 2024,
+    "month": 7,
+    "households": 20800,
+    "person_days": 368000,
+    "expenditure": 50200000,
+    "avg_wage": 217.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Lucknow",
+    "year": 2024,
+    "month": 6,
+    "households": 18500,
+    "person_days": 318000,
+    "expenditure": 43500000,
+    "avg_wage": 212.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Lucknow",
+    "year": 2024,
+    "month": 5,
+    "households": 19800,
+    "person_days": 342000,
+    "expenditure": 46800000,
+    "avg_wage": 214.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Varanasi",
+    "year": 2024,
+    "month": 10,
+    "households": 26500,
+    "person_days": 475000,
+    "expenditure": 65200000,
+    "avg_wage": 222.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Varanasi",
+    "year": 2024,
+    "month": 9,
+    "households": 25200,
+    "person_days": 452000,
+    "expenditure": 62000000,
+    "avg_wage": 220.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Varanasi",
+    "year": 2024,
+    "month": 8,
+    "households": 24800,
+    "person_days": 438000,
+    "expenditure": 59500000,
+    "avg_wage": 218.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Varanasi",
+    "year": 2024,
+    "month": 7,
+    "households": 26100,
+    "person_days": 465000,
+    "expenditure": 63500000,
+    "avg_wage": 221.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Varanasi",
+    "year": 2024,
+    "month": 6,
+    "households": 23800,
+    "person_days": 422000,
+    "expenditure": 57200000,
+    "avg_wage": 216.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Varanasi",
+    "year": 2024,
+    "month": 5,
+    "households": 25500,
+    "person_days": 448000,
+    "expenditure": 61000000,
+    "avg_wage": 219.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Kanpur",
+    "year": 2024,
+    "month": 10,
+    "households": 17800,
+    "person_days": 318000,
+    "expenditure": 43500000,
+    "avg_wage": 218.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Kanpur",
+    "year": 2024,
+    "month": 9,
+    "households": 16900,
+    "person_days": 302000,
+    "expenditure": 41200000,
+    "avg_wage": 216.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Kanpur",
+    "year": 2024,
+    "month": 8,
+    "households": 16200,
+    "person_days": 288000,
+    "expenditure": 39200000,
+    "avg_wage": 213.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Kanpur",
+    "year": 2024,
+    "month": 7,
+    "households": 17300,
+    "person_days": 308000,
+    "expenditure": 42000000,
+    "avg_wage": 215.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Kanpur",
+    "year": 2024,
+    "month": 6,
+    "households": 15800,
+    "person_days": 278000,
+    "expenditure": 38000000,
+    "avg_wage": 211.00
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Kanpur",
+    "year": 2024,
+    "month": 5,
+    "households": 16700,
+    "person_days": 295000,
+    "expenditure": 40200000,
+    "avg_wage": 213.50
+  }
+]

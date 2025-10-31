@@ -1,0 +1,157 @@
+You are to build a complete, production-ready Streamlit web app called **“Our Voice, Our Rights – MGNREGA Dashboard”**.  
+This app must help Indian citizens easily understand the performance of their district under the **Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)** using open data from data.gov.in.
+
+---
+
+### 🧠 Goal
+The Government of India’s open API provides monthly district-level MGNREGA data, but rural citizens often can’t interpret it.  
+Your task: build an accessible, bilingual (English + Hindi) Streamlit dashboard that lets users select their **State and District** to view key performance metrics, visualize trends, and compare with state averages — even if the API is down.
+
+---
+
+### ⚙️ Technical Requirements
+
+**Framework:** Streamlit  
+**Language:** Python 3  
+**Database:** SQLite (for caching + offline fallback)  
+**Libraries:** streamlit, pandas, requests, plotly, sqlite3, gtts (or pyttsx3), geopy (optional)  
+**Hosting:** Replit web server  
+**Default State:** Uttar Pradesh  
+
+---
+
+### 🗂️ File Structure
+/app.py → Main Streamlit file
+/utils.py → Helper functions for API, caching, and translations
+/offline_data.json → Local fallback data
+/data_cache.db → SQLite database for storing fetched results
+/requirements.txt → All dependencies
+
+---
+
+### 🎯 Functional Requirements
+
+1. **Homepage**
+   - Title: “Our Voice, Our Rights – MGNREGA Dashboard 🇮🇳”
+   - Subtitle: “Understand your district’s performance under MGNREGA.”
+   - Dropdowns: 
+     - State (default = Uttar Pradesh)
+     - District (auto-filled list from API or cache)
+   - “Fetch Data” button
+
+2. **Main Dashboard**
+   - Show big metric cards:
+     - 👨‍🌾 Households Worked (कुल परिवार)
+     - 💰 Total Expenditure (कुल व्यय)
+     - 🧱 Person-Days Generated (कार्य दिवस)
+     - 💵 Average Wage (औसत वेतन)
+   - Each card:
+     - Large font + Hindi translation
+     - Green if improved, red if decreased, orange if stable
+     - Tooltip for explanation
+   - Display line chart of last 6 months trend (Plotly)
+   - Display bar chart comparing district vs state average
+   - “📈 Performance Summary” section with plain sentences (e.g., “Lucknow generated 2.1 lakh person-days this month, up 10% from last month.”)
+   - Button “🔊 Read Summary” that uses text-to-speech (gTTS or pyttsx3) to speak the report aloud in English or Hindi.
+
+3. **Offline Fallback**
+   - If the data.gov.in API fails or times out:
+     - Load last data from SQLite or `offline_data.json`
+     - Show warning: “⚠️ Showing cached data (last updated on DD-MM-YYYY)”
+   - Use `st.cache_data(ttl=86400)` to limit re-fetch to once per day.
+
+4. **Auto-Detect District (Bonus)**
+   - Use browser geolocation to estimate the user’s district (via Nominatim reverse geocode).
+   - If found, preselect it automatically.
+
+5. **Accessibility**
+   - Use large icons, clear fonts, bilingual labels.
+   - Add a glossary explaining each metric in plain Hindi + English.
+   - Ensure layout works on mobile.
+
+---
+
+### 🧩 Data Handling
+- Fetch data from: https://www.data.gov.in/catalog/mahatma-gandhi-national-rural-employment-guarantee-act-mgnrega  
+  (Use any active resource ID for *Monthly District Performance* and replace `<RESOURCE_ID>` below.)
+- Example API call:
+```python
+import requests
+url = "https://api.data.gov.in/resource/<RESOURCE_ID>?filters[state_name]=Uttar%20Pradesh&format=json&api-key=<YOUR_API_KEY>"
+r = requests.get(url)
+data = r.json()
+Parse district, month, year, households worked, person-days, expenditure, average wage.
+Store in SQLite (district_metrics table):
+| id | state | district | year | month | households | person_days | expenditure | avg_wage | updated_at |
+🧮 Logic Flow
+When user selects state/district → check cache.
+If cache is older than 1 day → fetch from API → store results in SQLite.
+If API fails → load last saved results from SQLite → if not found → fallback to offline_data.json.
+Display the metrics and charts.
+Allow user to listen to the spoken summary.
+Show a timestamp of last data update.
+📊 Visual Design Guidelines
+Use Streamlit’s st.metric() for KPIs.
+Use plotly.express.line() for monthly trends.
+Use plotly.express.bar() for comparison.
+Use emojis/icons for visual cues.
+Hindi + English under each label.
+Bright colors for change indicators.
+🔐 Reliability & Production-Readiness
+Daily cached fetch (TTL=86400 seconds).
+SQLite persistence across sessions.
+Try-except on all API calls.
+Fallback to offline JSON snapshot.
+Handle API rate limits gracefully.
+Show toast messages on API errors.
+Log update time.
+🗣️ Example Voice Summary
+When user clicks “🔊 Read Summary”:
+“In September 2025, 23,450 households in Lucknow worked under MGNREGA, generating 4.2 lakh person-days and ₹5.8 crore expenditure. This is a 12% increase from August.”
+If Hindi mode:
+“सितंबर 2025 में, लखनऊ जिले में 23,450 परिवारों ने मनरेगा के तहत काम किया, जिससे 4.2 लाख कार्य दिवस और ₹5.8 करोड़ खर्च हुए।”
+Use gtts to generate an mp3 and st.audio() to play it.
+🧰 Example Libraries to Install
+streamlit
+pandas
+requests
+plotly
+gtts
+geopy
+🖥️ Running on Replit
+Replit should automatically:
+Install dependencies
+Run: streamlit run app.py --server.port 8000 --server.address 0.0.0.0
+Provide a public URL like: https://mgnrega-dashboard.akshith.repl.co
+🎥 Deliverables
+After app is complete:
+Hosted URL (Replit public link)
+Loom video (<2 minutes) showing:
+District selection
+Charts and metrics
+Offline fallback
+Audio summary
+Code overview + architecture
+💬 Summary
+Build a visually appealing, bilingual, and accessible Streamlit dashboard for MGNREGA that:
+Fetches & caches data from data.gov.in
+Lets citizens view their district’s performance
+Shows trends & comparisons
+Handles API downtime gracefully
+Offers speech and local language support
+Runs fully on Replit
+Now, generate the complete working code, including:
+app.py
+Optional utils.py
+requirements.txt
+Sample fallback data file (offline_data.json)
+so the app is instantly runnable and hosted.
+
+---
+
+Once you paste this prompt into **Replit AI**, it will:
+- Write and connect all your files automatically,  
+- Build a Streamlit dashboard with caching, fallback, and charts,  
+- And give you a **live hosted app URL** you can use in your Loom video submission.  
+
+Would you like me to also write a *ready-made offline fallback JSON template* (so y
